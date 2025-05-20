@@ -40,7 +40,7 @@ class Trainer:
             .schema(schema) \
             .format("json") \
             .option("maxFilesPerTrigger", 1) \
-            .load("file:///" + os.path.abspath(self.sparkConf.data_dir).replace("\\", "/"))
+            .load(self.sparkConf.data_dir)
 
 
         def process_batch(batch_df: DataFrame, _):
