@@ -1,4 +1,4 @@
-# Movie Review Sentiment Analysis with Kafka
+# Lab04 - Big Data Analysis
 
 A data streaming simulation that processes movie reviews through Apache Kafka and trains an SVM model for sentiment classification.
 
